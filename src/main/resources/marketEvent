@@ -1,0 +1,290 @@
+[
+    {
+        "fieldCaption": "实际成本(元)",
+        "status": 2,
+        "fieldName": "actual_cost",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "实际收入(元)",
+        "status": 2,
+        "fieldName": "actual_income",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "开始日期",
+        "status": 2,
+        "fieldName": "begin_time",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": true
+    },
+    {
+        "fieldCaption": "状态",
+        "status": 2,
+        "fieldName": "biz_status",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "描述",
+        "status": 2,
+        "fieldName": "description",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "效果",
+        "status": 2,
+        "fieldName": "effect",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "结束日期",
+        "status": 2,
+        "fieldName": "end_time",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": true
+    },
+    {
+        "fieldCaption": "活动类型",
+        "status": 2,
+        "fieldName": "event_type",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": true
+    },
+    {
+        "fieldCaption": "执行描述",
+        "status": 2,
+        "fieldName": "execution_desc",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "预计成本(元)",
+        "status": 2,
+        "fieldName": "expected_cost",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "预计收入(元)",
+        "status": 2,
+        "fieldName": "expected_income",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "数字测试测试小数位数",
+        "status": 2,
+        "fieldName": "field_1fFHc__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "单行文本",
+        "status": 2,
+        "fieldName": "field_26lUm__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "日期测试",
+        "status": 2,
+        "fieldName": "field_4O326__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "人员",
+        "status": 2,
+        "fieldName": "field_5lspd__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "测试单选2",
+        "status": 2,
+        "fieldName": "field_8rk1m__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "部门",
+        "status": 2,
+        "fieldName": "field_AcnhU__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "日期时间测试",
+        "status": 2,
+        "fieldName": "field_b8bco__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "时间测试",
+        "status": 2,
+        "fieldName": "field_C14Py__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "布尔值",
+        "status": 2,
+        "fieldName": "field_geMbB__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "单选测试测试",
+        "status": 2,
+        "fieldName": "field_Mlelj__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "手机",
+        "status": 2,
+        "fieldName": "field_pjfVF__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "金额",
+        "status": 2,
+        "fieldName": "field_qQGd1__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "单选",
+        "status": 2,
+        "fieldName": "field_zSDnH__c",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "地点",
+        "status": 2,
+        "fieldName": "location",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "计划",
+        "status": 2,
+        "fieldName": "marketing_plan",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "市场活动名称",
+        "status": 2,
+        "fieldName": "name",
+        "isEditableOfInvisible": false,
+        "isEditableOfReadOnly": false,
+        "isEditable": false,
+        "isRequire": true
+    },
+    {
+        "fieldCaption": "负责人",
+        "status": 2,
+        "fieldName": "owner",
+        "isEditableOfInvisible": false,
+        "isEditableOfReadOnly": false,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "业务类型",
+        "status": 2,
+        "fieldName": "record_type",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": true
+    },
+    {
+        "fieldCaption": "状态(原)",
+        "status": 2,
+        "fieldName": "status",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "总结",
+        "status": 2,
+        "fieldName": "summary",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    },
+    {
+        "fieldCaption": "归属部门",
+        "status": 2,
+        "fieldName": "data_own_department",
+        "isEditableOfInvisible": true,
+        "isEditableOfReadOnly": true,
+        "isEditable": false,
+        "isRequire": false
+    }
+]

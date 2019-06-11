@@ -12,7 +12,7 @@ public class Son extends Father {
     @Override
     public synchronized void doSomething() throws InterruptedException {
         System.out.println("Son done.");
-        TimeUnit.SECONDS.sleep(3);
+        //TimeUnit.SECONDS.sleep(3);
         super.doSomething();
     }
 }

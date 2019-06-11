@@ -26,8 +26,10 @@ public class RepeatSynTest {
             }
         });
 
+        TimeUnit.SECONDS.sleep(1);
+        son.doSomething();
 
-        Father father = new Father();
+    /*    Father father = new Father();
 
         threadPoolExecutor.execute(() -> {
             try {
@@ -36,7 +38,7 @@ public class RepeatSynTest {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-        });
+        });*/
 
 
         TimeUnit.SECONDS.sleep(10);

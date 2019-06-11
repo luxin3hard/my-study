@@ -1,0 +1,119 @@
+[
+        {
+            "fieldCaption": "客户名称",
+            "status": 2,
+            "fieldName": "account_id",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": true
+        },
+        {
+            "fieldCaption": "地址类型",
+            "status": 2,
+            "fieldName": "add_type",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": true
+        },
+        {
+            "fieldCaption": "联系人",
+            "status": 2,
+            "fieldName": "contact_id",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "联系方式",
+            "status": 2,
+            "fieldName": "contact_way",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "主地址",
+            "status": 2,
+            "fieldName": "is_default_add",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "默认收货地址",
+            "status": 2,
+            "fieldName": "is_ship_to_add",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "地址编号",
+            "status": 2,
+            "fieldName": "name",
+            "isEditableOfInvisible": false,
+            "isEditableOfReadOnly": false,
+            "isEditable": false,
+            "isRequire": true
+        },
+        {
+            "fieldCaption": "负责人",
+            "status": 2,
+            "fieldName": "owner",
+            "isEditableOfInvisible": false,
+            "isEditableOfReadOnly": false,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "业务类型",
+            "status": 2,
+            "fieldName": "record_type",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": true
+        },
+        {
+            "fieldCaption": "地区定位",
+            "status": 2,
+            "fieldName": "regional_location",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "备注",
+            "status": 2,
+            "fieldName": "remark",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "邮政编码",
+            "status": 2,
+            "fieldName": "zipcode",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        },
+        {
+            "fieldCaption": "归属部门",
+            "status": 2,
+            "fieldName": "data_own_department",
+            "isEditableOfInvisible": true,
+            "isEditableOfReadOnly": true,
+            "isEditable": false,
+            "isRequire": false
+        }
+    ]
