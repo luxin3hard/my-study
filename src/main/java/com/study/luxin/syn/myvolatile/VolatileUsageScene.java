@@ -7,7 +7,7 @@ public class VolatileUsageScene {
 
     //----------作为状态标志---------------
     // 前后没有依赖关系
-    private boolean stop = false;
+    private volatile boolean stop = false;
 
     public void stopWhileCycle() {
         while (!stop) {
