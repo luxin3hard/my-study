@@ -191,4 +191,34 @@ public class TowSum {
         return result;
     }
 
+
+    private int[] towSum02(int[] nums, int target) {
+        Map<Integer, Integer> remainder2index = new HashMap<>();
+        int index = 0;
+        for (int num : nums) {
+            remainder2index.put(target - num, index++);
+        }
+
+        int[] result = new int[2];
+
+        int index1 = 0;
+        for (int num : nums) {
+            Integer index2 = remainder2index.get(num);
+            if (index2 != null && index1 != index2) {
+                result[0] = index1;
+                result[1] = index2;
+                return result;
+            }
+            index1++;
+        }
+        return null;
+    }
+
+    @Test
+    public void test2() {
+        int[] nums = new int[]{3, 2, 4};
+        System.out.println(Arrays.toString(towSum02(nums, 6)));
+    }
+
+
 }
