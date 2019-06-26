@@ -34,6 +34,5 @@ public class DaemonDemo {
                 System.out.println("DaemonThread finally run.");
             }
         }
-
     }
 }
