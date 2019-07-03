@@ -5,7 +5,7 @@ public class InheritableThreadLocalDemo {
     private static InheritableThreadLocal<String> inheritableThreadLocal = new InheritableThreadLocal<>();
 
     /**
-     * main线程就是 新建的thread的父线程, 会复制父线程的 daemon和priority 属性 和inheritableThreadLocal属性
+     * main线程就是 新建的thread的父线程, 会复制父线程的 daemon和priority 属性 和inheritableThreadLocal属性 和 contextClassLoader
      *
      * @param args
      */
@@ -17,6 +17,9 @@ public class InheritableThreadLocalDemo {
             System.out.println(threadLocal.get());
             System.out.println(inheritableThreadLocal.get());
         });
+
+        // 自定义的线程最好添加名字,方便定位问题
+        thread.setName("luxTestThread");
         thread.start();
     }
 }
