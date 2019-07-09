@@ -1,6 +1,7 @@
 package com.study.luxin.code;
 
 import org.junit.Test;
+import org.springframework.cglib.core.Local;
 
 public class RevertLinkedList {
     public class ListNode {
@@ -101,26 +102,53 @@ public class RevertLinkedList {
     }
 
 
+    public ListNode addTwoNumbers01(ListNode l1, ListNode l2) {
+        ListNode head = new ListNode(0);
+        ListNode t = head;
+        boolean up = false;
+
+        while (l1 != null || l2 != null || up) {
+            int value = (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val);
+
+            if (up) {
+                value = value + 1;
+            }
+
+            if (value >= 10) {
+                value = value - 10;
+                up = true;
+            } else {
+                up = false;
+            }
+
+            t.next = new ListNode(value);
+            t = t.next;
+
+            if (l1 != null) {
+                l1 = l1.next;
+            }
+            if (l2 != null) {
+                l2 = l2.next;
+            }
+        }
+        return head.next;
+    }
+
+
     @Test
     public void test1() {
         ListNode b1 = new ListNode(2);
         ListNode b2 = new ListNode(4);
         ListNode b3 = new ListNode(3);
-
-
         b1.next = b2;
         b2.next = b3;
-
 
         ListNode n1 = new ListNode(5);
         ListNode n2 = new ListNode(6);
         ListNode n3 = new ListNode(4);
-
         n1.next = n2;
         n2.next = n3;
-
-
-        ergodicLinkedList(addTwoNumbers(b1, n1));
+        ergodicLinkedList(addTwoNumbers01(b1, n1));
     }
 
 

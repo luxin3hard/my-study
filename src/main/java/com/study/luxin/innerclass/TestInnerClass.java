@@ -8,5 +8,4 @@ public class TestInnerClass {
         // 子类对象,无法直接使用父类的内部类
         // new NormalClass.InnerClass();
     }
-
 }
