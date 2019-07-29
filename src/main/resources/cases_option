@@ -1,0 +1,1073 @@
+[
+    {
+        "label": "跑带破损",
+        "value": "52aq2wPcy",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑板破损",
+        "value": "To2Mmoc6w",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑板 跑带上有异物",
+        "value": "Ej2IiULpw",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "按摩腰带破损",
+        "value": "E012K7hed",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "小皮带损坏",
+        "value": "A0quILeeq",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "小皮带未转正",
+        "value": "mD75x01E1",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "扶手破损",
+        "value": "66mph13nQ",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "立柱管，立柱护套破损",
+        "value": "a83mm1mxG",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "底架 升降架变形 掉漆",
+        "value": "3eD9zz4i4",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "仪表架断裂形",
+        "value": "Iyf2Pgxv8",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "液晶显示屏破损",
+        "value": "823lK5hy8",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "仪表盘主体和面板 破损/磨损",
+        "value": "r1eJqzR39",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电机盖 后护罩破损",
+        "value": "4x1C4776I",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "边条（侧边条）破损",
+        "value": "f9Wwj0Kks",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "移动轮 移动轮架损坏",
+        "value": "c1Mc23dle",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "扭腰盘 哑铃 多功能部件破损",
+        "value": "gObyeU9Ko",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "按摩机 按摩机耳朵和按摩腰带 运输破损",
+        "value": "a2Szww0w3",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电源线破损 立柱线断裂",
+        "value": "zC0ePf73t",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "少螺丝包",
+        "value": "2av9Ou1KN",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "少配件",
+        "value": "EE62VErnR",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "少多功能配件",
+        "value": "5oUXIbCxb",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "整机规格出错",
+        "value": "i395N2469",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "脱焊 虚焊",
+        "value": "4mxxz32kK",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "乱花 磨损 掉漆",
+        "value": "7w4mWmq0v",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "铁管断裂 变形",
+        "value": "6rb2S4w0Z",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "多功能部件安装不上",
+        "value": "eCzm8dea1",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "安装螺丝断裂 滑丝",
+        "value": "Bx4Reenrj",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "六级减震弹簧脱落",
+        "value": "uMsLOO2io",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "立柱 U型管 多功能架没孔",
+        "value": "701L86uK3",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "孔位不正 螺丝装不进",
+        "value": "bmMO1q2Kr",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑台歪（折叠蹭扶手 轮子不着地）",
+        "value": "jYb3f6swM",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "塑料件间隙大 安装后不对称",
+        "value": "W0vGOPZm8",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "加油管 加油泵 加油硅胶不良",
+        "value": "kQrww813Z",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "液压杆失灵",
+        "value": "eDDgBI17V",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "发泡扶手异味",
+        "value": "sygVYH1Ka",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "按摩机头异味",
+        "value": "674SykH4N",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑带、皮带烧焦味",
+        "value": "Tkm607jvs",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "橡胶异味",
+        "value": "mazvTuQB5",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "小零件丢失（客户责任）",
+        "value": "9iyp5pg0s",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "零件损坏 但客户不认责",
+        "value": "Rkd62z0iE",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "客户不小心损坏的 保修期内的",
+        "value": "lcc4hnLC7",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑步带调节和加硅油",
+        "value": "1F31mi8Uf",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "显示屏上的功能",
+        "value": "121EM7I37",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "差评回访 跟进处理",
+        "value": "l5oBV9Tt7",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "产品安装和使用",
+        "value": "7HRmgrjX1",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "客户投诉是二手的返修机",
+        "value": "4uw712AI0",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "导致使用者受伤的",
+        "value": "akzlQ32L7",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "消协12315投诉过来",
+        "value": "6rz77uU3a",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "WIFI链接不上",
+        "value": "k9b6gFO51",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "按键失灵 触摸失灵",
+        "value": "Oa1l0Qjz9",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "不通电 黑屏",
+        "value": "X1ln99YBc",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "系统卡死 死机",
+        "value": "x5pFA411J",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "花屏 显示乱码或线条",
+        "value": "4GoF717AU",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "自动停机 无规律当机",
+        "value": "GeZ17eusi",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "显示屏内有异物",
+        "value": "74Bgn6xty",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "喇叭有电流声",
+        "value": "EGz75ci13",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "心率感应无效",
+        "value": "svco6I8G2",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "讯故障 系统故障 收不到数据",
+        "value": "1Ukn4Ao74",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "视频 音乐播放问题",
+        "value": "i6i6Txlau",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "软件APP问题",
+        "value": "sc8l99mC4",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "通讯故障",
+        "value": "rQUCp6bMT",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "按键失灵",
+        "value": "v3h7QB1Xu",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "显示屏不通电",
+        "value": "RQ2cRp897",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "安全开关无效",
+        "value": "pyoMvqwot",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "闪屏",
+        "value": "978wjNobg",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "自动加速 减速",
+        "value": "22y220cy4",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "显示不全 显示屏内有异物",
+        "value": "O95gs3EYF",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "错误代码乱跳",
+        "value": "1ggDtuAvG",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "MP3 USB播放问题",
+        "value": "r22e246eE",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "蓝牙连接问题 蓝屏APP无法使用",
+        "value": "gOaHn829c",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "通讯故障（收不到数据）",
+        "value": "Bb0Qdm1ZT",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "下控击穿（驱动器故障 IGBT击穿）",
+        "value": "evm8wr6sG",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电压低 电压高",
+        "value": "C56410g4a",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "速度感应失败（转到几秒就停了）",
+        "value": "Sq617xMI6",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "速度失控 转到加速减速",
+        "value": "17BbcyWNZ",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "扬升报错（坡度学习失败）",
+        "value": "ylBgCoD7N",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "过流保护、负载过重",
+        "value": "m641HtNar",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "显示正常 跑带不动",
+        "value": "L2cuidL2Q",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "下控不通电",
+        "value": "joScMyZCB",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "短路跳闸",
+        "value": "ei1891nui",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "安全开关放上去 显示安全开关脱落",
+        "value": "97Vjp1gt7",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电源开关 按摩机开关 失效",
+        "value": "9m1ONy38l",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "蓝牙电子秤失效",
+        "value": "M7Gf6vye4",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "USB MP3线无效",
+        "value": "8v9pLx7gg",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "面板按键 扶手按键 按键失效",
+        "value": "kbe3t2hTD",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "喇叭不响或者只有一边喇响",
+        "value": "L45L1688u",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电源线 立柱线 AC线破损",
+        "value": "SipLl9o5B",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "干扰其他家用电器",
+        "value": "82frfN0Dg",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "静电（立柱和扶手上有漏点的感觉）",
+        "value": "f1OF5uh0r",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电机卡死 转不动",
+        "value": "67QyPNGz3",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电机开路（导致E02)",
+        "value": "dO6qt3lxp",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电机异响 声音不正常",
+        "value": "TKMfh4wsm",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "过流保护E05焦臭味",
+        "value": "pdSrp3yXo",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "电机短路 跳闸",
+        "value": "metkjzm1A",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "按摩机不通电或烧毁",
+        "value": "q3sdit2qR",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "升降电机故障（不动作 脱杆）",
+        "value": "J11ztO8OF",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "滚筒导致异响",
+        "value": "76cModA5g",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "安全固定铁皮变形异响",
+        "value": "11gh8Ap0k",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "六级减震部位 异音",
+        "value": "98SD0H9jd",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑板固定螺丝松异响",
+        "value": "KjX6qc1Xd",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "边条 侧边条与电机盖 后护照 异响",
+        "value": "BuI2pqidl",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑带摩擦塑料件（电机盖 边条 后护照）异响",
+        "value": "2Edn8H2ht",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "跑步带跑偏 调不正",
+        "value": "76xFT62jh",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "有橡胶臭味 长时间散不掉异味",
+        "value": "xd1ke6f8a",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "噪音或者震动大",
+        "value": "37sM6k5gf",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "原因不明 异响",
+        "value": "2TF1W3tlJ",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": false
+    },
+    {
+        "label": "其他",
+        "value": "other",
+        "config": {
+            "edit": 1,
+            "enable": 1,
+            "remove": 1
+        },
+        "not_usable": true,
+        "is_required": true
+    }
+]

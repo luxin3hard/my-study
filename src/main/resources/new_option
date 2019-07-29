@@ -1,0 +1,1833 @@
+[
+            {
+              "not_usable": false,
+              "label": "立柱边条破损",
+              "value": "2Gz0f2el8",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "立柱护套破损",
+              "value": "68tR12D3y",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "底架变形、掉漆",
+              "value": "93r1aGq4D",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "升降架变形、掉漆",
+              "value": "oxsB1u2hg",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "立柱变形、掉漆",
+              "value": "W1Ptv8vkk",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "U型管变形、掉漆",
+              "value": "bzYn2QTLR",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "多功能架变形、掉漆",
+              "value": "j30f1y5t8",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "前扶手手握心率按键板破损",
+              "value": "UaZ52oe6Y",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧扶手手握心率按键板破损",
+              "value": "3Ufp4q34x",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "仪表架断裂 变形",
+              "value": "v68C3B2B1",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝屏破损",
+              "value": "7jFEz7hiV",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "云互联显示屏破损",
+              "value": "1ULtt82l5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电子表主体上盖破损、磨损",
+              "value": "l0H0Jz4Bj",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电子表主体下盖破损、磨损",
+              "value": "20BVw32Fg",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "表芯破损",
+              "value": "ywI1Kz48c",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "马达盖破损",
+              "value": "xtjidWdx9",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "前护罩破损",
+              "value": "7SDhdx9T7",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "后护罩破损",
+              "value": "bunu416q2",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "（左/右）上边条破损",
+              "value": "B4HO6EmxB",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "（左/右）侧边条破损",
+              "value": "61uvXlrsM",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "移动轮损坏",
+              "value": "Up435x1s0",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "移动轮架损坏",
+              "value": "7SX6an26w",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "扭腰盘破损",
+              "value": "asV0jO9cV",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝牙电子秤破损",
+              "value": "mtwyoTaA8",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "按摩机头破损",
+              "value": "lD05dCA2b",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "其他多功能配件破损",
+              "value": "qn6h2Z9K9",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "气弹簧变形、损坏",
+              "value": "eshs2oZgh",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧扶手（发泡）破损",
+              "value": "eH1c70vFq",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧扶手（撕不破）破损",
+              "value": "Nkk1kzz8Z",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "前扶手破损",
+              "value": "5k4Hl4oln",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "扶手管塞破损",
+              "value": "iY3a99yk1",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电源线破损",
+              "value": "2uHwmlK1x",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "立柱线破损",
+              "value": "EwrU1Ivds",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "减震弹簧破损",
+              "value": "4hymc3G3k",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "wifi无法正常连接",
+              "value": "w7Az81Nd1",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "面板按键失灵",
+              "value": "f31K2xkIs",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧扶手按键失灵",
+              "value": "452Op2CRT",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "前扶手按键失灵",
+              "value": "yf78KaHNL",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "触摸失灵",
+              "value": "4gpU2cohd",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "触摸不灵敏",
+              "value": "8FvZ5552w",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电子表不通电、黑屏",
+              "value": "V23mW3mXv",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "安卓系统卡死、死机",
+              "value": "rl1A9a5zP",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "自动重启",
+              "value": "i4XHC652Z",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "花屏、显示乱码、线条、雪花",
+              "value": "I92tUFcNy",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "自动停机 无规律停机",
+              "value": "wm4Pn34sm",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "显示屏内有异物",
+              "value": "w3y2ir1TQ",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "安全开关失效不显示E07",
+              "value": "c2Wo119vb",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "放回安全开关显示安全开关脱落",
+              "value": "zw38osZU6",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "喇叭有电流声、破音",
+              "value": "Si9GDcvi8",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "心率片感应失败",
+              "value": "0l2X2Pu93",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "通讯故障 系统故障 收不到数据",
+              "value": "s8pdZBwx9",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "视频播放问题",
+              "value": "19nq3257n",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "音乐播放问题",
+              "value": "s4u3SQ1nS",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "MP3、USB接口失效",
+              "value": "GvW5c8C8Q",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "软件APP问题",
+              "value": "mWfw566A6",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "无规律自动停机",
+              "value": "sZJ05ehmH",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "闪屏",
+              "value": "6Hzcqaz2j",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "自动加减速",
+              "value": "j5NM8l1z2",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "显示不完整",
+              "value": "U1u2lPhk3",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "错误代码乱跳",
+              "value": "f0lBInkf2",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝牙无法正常连接",
+              "value": "z2lCp4yow",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝牙APP功能异常",
+              "value": "4DR15ymc6",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "韩康云跑步APP无法正常使用",
+              "value": "7e7j1vEJW",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "通讯故障（收不到数据）",
+              "value": "t1twh5SlY",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "下控击穿（驱动器故障 IGBT击穿）",
+              "value": "9oS84uQEa",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电压不稳定",
+              "value": "amz1eycgY",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "速度感应失败",
+              "value": "1ewseQdZw",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "速度失控 自动加速减速",
+              "value": "g16b8yVo1",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "扬升报错（坡度学习失败）",
+              "value": "rB2dnn5e5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "过流保护、负载过重",
+              "value": "3eQr534E3",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "显示正常 跑带不动",
+              "value": "42S8Ng2sk",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "下控不通电",
+              "value": "r2qDLrduj",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "短路跳闸",
+              "value": "h1wvmmYb5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "安全开关放上去 显示安全开关脱落",
+              "value": "K3Vqt48gb",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电源开关失效",
+              "value": "91QOn1g3z",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "按摩机开关失效",
+              "value": "z13Bb92Cq",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "心率片感应失效",
+              "value": "xs5x014mx",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝牙电子秤显示不全、模糊",
+              "value": "03d32431w",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝牙电子秤显示不准",
+              "value": "H211a3d9j",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝牙电子秤不通电",
+              "value": "kclgN11q5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "USB接口失效",
+              "value": "G9p9lc41s",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "MP3线失效",
+              "value": "qapiqb6LN",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "喇叭不响或者只有一边喇叭响",
+              "value": "PJgV3rqZ2",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "AC线破损",
+              "value": "13x01k8P7",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "干扰其他家用电器",
+              "value": "XN29oTwnV",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "静电（立柱和扶手上有漏点的感觉）",
+              "value": "xi3oeRwkK",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "蓝屏静电显示不全",
+              "value": "EbK5297vc",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电机卡死、堵转",
+              "value": "8aozLKhk4",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电机AC线断路（显示E02)",
+              "value": "Kg46ejiPw",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电机异响、啸叫、有异音",
+              "value": "kajsklSd1",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "过流保护、负载过重E05",
+              "value": "r9wEglsyr",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电机短路、跳闸",
+              "value": "1609e8Kgg",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "按摩机头不通电",
+              "value": "df08D9xW4",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "按摩机头烧毁",
+              "value": "FN1yyDyn0",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "升降电机失效",
+              "value": "ywY21w8U8",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "升降电机丝杆护套脱落",
+              "value": "oK1QM66vp",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "安装螺丝断裂滑丝",
+              "value": "b6OAM14Yr",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "多功能部件安装不上",
+              "value": "ivsyGH250",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "加油管加油泵加油硅胶不良",
+              "value": "Fu0W61w8d",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "孔位不正螺丝装不进",
+              "value": "f2O1VcxKb",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "立柱U型管多功能架没孔",
+              "value": "u59x3wI68",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "六级减震弹簧脱落",
+              "value": "42HuXIsI1",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "乱花磨损掉漆",
+              "value": "QCknh3b2I",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑台歪（折叠蹭扶手轮子不着地）",
+              "value": "1Lc2FahvK",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "塑料件间隙大安装后不对称",
+              "value": "3859AH98w",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "铁管断裂变形",
+              "value": "tj1Zn2eS5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "脱焊虚焊",
+              "value": "1SG7zJI63",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "液压杆失灵",
+              "value": "uleVhr2h5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "少多功能配件",
+              "value": "KzJuvn71k",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "少螺丝包",
+              "value": "qnqu86IQ2",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "少配件",
+              "value": "30614x5nv",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "整机规格出错",
+              "value": "2ccNjQyw2",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "产品安装和使用",
+              "value": "sHzma6m05",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "导致使用者受伤的",
+              "value": "5uyfMiqSb",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "客户投诉是二手的返修机",
+              "value": "1sRCCs6L9",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑步带调节和加硅油",
+              "value": "1u2UO31iG",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "显示屏上的功能",
+              "value": "57wYok14A",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "前滚筒异响",
+              "value": "4mT25E9fp",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "后滚筒异响",
+              "value": "te6o1Eat3",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "安全固定扣异响",
+              "value": "9fQ0iM362",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "六级减震弹簧异响",
+              "value": "QTmt0wb5J",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "气囊减震结构异响",
+              "value": "Ocs00AUk4",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑板固定螺丝异响",
+              "value": "tdF8x6r44",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "上边条异响",
+              "value": "Zwb2atSJc",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧边条异响",
+              "value": "Z1WnW1gqu",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "底封板内侧异响",
+              "value": "JcycMtk52",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "后护罩松动异响",
+              "value": "Bbwcwdn2Y",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑带摩擦塑料件（马达盖 边条 后护照）异响",
+              "value": "058j2Q37G",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "收到货跑带未调正",
+              "value": "zw2sa25Hr",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑带运转后跑偏、调不正",
+              "value": "6aHgq1x2t",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑台震动大",
+              "value": "vv1Q71SGh",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "扶手震动大",
+              "value": "gMW2gfE76",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "原因不明 异响",
+              "value": "w2cuJWjmD",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "少安全开关",
+              "value": "6lcxsNH6l",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "螺丝包少装/错装螺丝、垫片、扳手、螺母、硅油、MP3",
+              "value": "Xv28eTYiK",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "少蓝牙电子秤",
+              "value": "0y4YddqeM",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "少立柱护套、防尘罩、跑步机垫",
+              "value": "Tn5kO0hqD",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "脱焊 虚焊",
+              "value": "AuCa89YU0",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "乱花 磨损 掉漆",
+              "value": "Rq25Lkanv",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "铁管断裂 变形",
+              "value": "3Od7Jka1c",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "安装螺丝断裂 滑丝",
+              "value": "ucUQ539Xj",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "立柱 U型管 多功能架没孔",
+              "value": "r43elaftJ",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "孔位不正 螺丝装不进",
+              "value": "Q4YdB2Ule",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑台歪（折叠蹭扶手 轮子不着地）",
+              "value": "Skcr35UOb",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "塑料件间隙大 安装后不对称",
+              "value": "TqdSi710q",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "加油管 加油泵 加油硅胶不良",
+              "value": "M5OsK11U1",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑带损坏",
+              "value": "23e509i0H",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑板破损",
+              "value": "fC4y5Fl9Z",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑板 跑带上有异物",
+              "value": "c02vSwvC7",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "按摩腰带破损",
+              "value": "p0l18G2YY",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "小皮带损坏",
+              "value": "YoLUUg0a2",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "小皮带未装正",
+              "value": "n27oI2743",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "脱焊、虚焊、假焊",
+              "value": "m13HG7Uni",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电子表主体磨损、划痕、掉漆",
+              "value": "n2CMu7CbB",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "马达盖磨损、划痕、掉漆",
+              "value": "sZLcF74i5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "后护罩磨损、划痕、掉漆",
+              "value": "2P1fUopig",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧边条磨损、划痕、掉漆",
+              "value": "CEeKg76bn",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "上边条磨损、划痕、掉漆",
+              "value": "c0y326qs4",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "金属件断裂、变形",
+              "value": "1BK3Gmt2u",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "按摩机头装不上",
+              "value": "7xc3v01n0",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "多功能架装不上",
+              "value": "o44F6hy82",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "立柱管固定卡扣无法锁紧",
+              "value": "ylL65lKiY",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "立柱与底座固定的旋转把手无法固定",
+              "value": "1ba88u7K5",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "PU轮（后滚轮）不着地",
+              "value": "14frT2f3q",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "脚垫不平，跑步机晃动",
+              "value": "0yjb46c9E",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "电子表主体安装间隙大",
+              "value": "sgvcuTRvy",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "前扶手安装间隙大",
+              "value": "O2ntv3dHw",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧扶手安装间隙大",
+              "value": "g312DCBWj",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "上边条安装间隙大",
+              "value": "A2i30v09b",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "侧边条安装间隙大",
+              "value": "fwSu36hX6",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "后护罩安装间隙大",
+              "value": "41HExd0pE",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "漏油",
+              "value": "Hw3z61ADp",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "自动加油失效",
+              "value": "1zsg1FjgJ",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "加油管硅胶不良",
+              "value": "lHYhjb27u",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "气弹簧失灵",
+              "value": "r11r9dVxC",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "发泡扶手异味",
+              "value": "f6GC1khG8",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "按摩机头异味",
+              "value": "bMhX2Irn6",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "跑带、皮带烧焦味",
+              "value": "I2l82o9as",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "橡胶异味",
+              "value": "3O0ki1VuR",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "客户不小心损坏的保修期内的",
+              "value": "w15t20Dwr",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "零件损坏但客户不认责",
+              "value": "05Lma4xLL",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "not_usable": false,
+              "label": "小零件丢失（客户责任）",
+              "value": "GQmso7Cet",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            },
+            {
+              "is_required": true,
+              "not_usable": true,
+              "label": "其他",
+              "value": "other",
+              "config": {
+                "edit": 1,
+                "enable": 1,
+                "remove": 1
+              }
+            }
+          ]

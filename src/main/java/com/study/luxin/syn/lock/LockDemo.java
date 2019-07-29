@@ -27,7 +27,8 @@ public class LockDemo {
 
     // 因此当通过lockInterruptibly()方法获取某个锁时，如果不能获取到，只有进行等待的情况下，是可以响应中断的。
     // 而用synchronized修饰的话，当一个线程处于等待某个锁的状态，是无法被中断的，只有一直等待下去。
-    // 必须抛出一样
+    // 必须抛出异常
+    // lock.lock()本身不相应异常
     public void canInterruptLock() throws InterruptedException {
         Lock lock = new ReentrantLock();
         lock.lockInterruptibly();
@@ -140,7 +141,7 @@ public class LockDemo {
      *
      */
     @Test
-    public void reentrantReadWriteLockTest(){
+    public void reentrantReadWriteLockTest() {
         ReentrantReadWriteLock lock = new ReentrantReadWriteLock();
 
         // 同一个线程在获取写锁后,还能获取读线程
@@ -162,4 +163,51 @@ public class LockDemo {
     }
 
 
+    @Test
+    /**
+     * wait()是synchronized才能使用.
+     *
+     */
+    public void lockAndLockInterruptibly() throws InterruptedException {
+        ReentrantLock myLock = new ReentrantLock();
+        Thread thread1 = new Thread(() -> {
+            try {
+                myLock.lock();
+                System.out.println("locked");
+                Thread.sleep(2000);
+                System.out.println("sleep 结束");
+            } catch (InterruptedException e) {
+                System.out.println("被中断了");
+            } finally {
+                myLock.unlock();
+            }
+
+
+
+          /*  try {
+                lock.newCondition().await();
+            } catch (InterruptedException e) {
+                System.out.println("相应了了中断");
+            }*/
+        });
+
+        thread1.start();
+        TimeUnit.SECONDS.sleep(1);
+        Thread thread2 = new Thread(() -> {
+
+            System.out.println("thread 2 开始");
+            myLock.lock();
+            System.out.println("thread 2 locked***");
+
+            thread1.interrupt();
+
+            System.out.println("+++++++++++++++++++++++");
+        });
+        thread2.start();
+        TimeUnit.SECONDS.sleep(200);
+    }
+
+
 }
+
+

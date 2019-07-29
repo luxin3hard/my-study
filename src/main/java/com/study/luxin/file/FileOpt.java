@@ -15,8 +15,8 @@ import java.util.Map;
 public class FileOpt {
 
 
-    public String readFile(String filePath) throws IOException {
-        return IOUtils.toString(getClass().getClassLoader().getResource(filePath));
+    public String readFile(String fileName) throws IOException {
+        return IOUtils.toString(getClass().getClassLoader().getResource(fileName));
     }
 
     @Test
