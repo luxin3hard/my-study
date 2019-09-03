@@ -11,7 +11,7 @@ public class BigDecimalDemo {
      * stripTrailingZeros删除无用的0的方法.
      */
     public void removeUnusedZero() {
-        BigDecimal v1 = new BigDecimal("1.2340");
+        BigDecimal v1 = new BigDecimal("264,000");
         BigDecimal v2 = new BigDecimal("1.234");
 
         v1 = v1.stripTrailingZeros();

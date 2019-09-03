@@ -16,3 +16,58 @@ Accept: application/json
 
 ###
 
+GET /ws HTTP/1.1
+Host: localhost:9999
+Connection: Upgrade
+Sec-WebSocket-Key2: 12998 5 Y3 1  .P00
+Sec-WebSocket-Protocol: sample
+Upgrade: WebSocket
+Sec-WebSocket-Key1: 4 @1  46546xW%0l 1 5
+Origin: http://localhost:9999
+^n:ds[4U
+
+###
+
+GET /ws HTTP/1.1
+Host: localhost:9999
+Connection: Upgrade
+Sec-WebSocket-Key1: 123456
+Sec-WebSocket-Protocol: sample
+Upgrade: WebSocket
+Origin: http://localhost:9999
+
+###
+
+GET /ws HTTP/1.1
+Host: localhost:9999
+Content-Type: application/json
+mytest: 1111
+User-Agent: PostmanRuntime/7.16.3
+Accept: */*
+Cache-Control: no-cache
+Postman-Token: ada7a1c4-d61f-4bbb-ad2e-608c10483b61,f40481a5-4c03-4dfa-bbcc-a620176f2c7d
+Host: localhost:9999
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+cache-control: no-cache
+
+###
+
+GET /ws HTTP/1.1
+Host: localhost:9999
+Connection: Upgrade
+Sec-WebSocket-Key1: 332323
+Sec-WebSocket-Protocol: sample
+Upgrade: WebSocket
+Origin: http://localhost:9999
+
+###
+
+GET /ws HTTP/1.1
+Host: localhost:9999
+Connection: Upgrade
+Sec-WebSocket-Key1: 332323
+Sec-WebSocket-Protocol: sample
+Upgrade: WebSocket
+Origin: http://localhost:9999
+
