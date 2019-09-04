@@ -43,39 +43,43 @@ public class IOServer {
                     socket.setReuseAddress(false);
                     System.out.println("获取了连接: " + System.currentTimeMillis());
 
-                    threadPool.submit(() -> {
-                        byte[] data = new byte[1024];
-                        try {
-                            InputStream inputStream = socket.getInputStream();
-                            TimeUnit.SECONDS.sleep(1);
-                            while (true) {
-                                int len;
-
-                                /**
-                                 * inputStream.read() 方法
-                                 * 1. 如果会阻塞知道等到获取到客户端发送的数据.
-                                 * 2. 如果到了文件的尾部,返回 -1
-                                 */
-                                while ((len = inputStream.read(data)) != -1) {
-                                    System.out.println(new String(data, 0, len));
-
-                                    OutputStream outputStream = socket.getOutputStream();
-
-                                    System.out.println("remote port bind: "+socket.getPort());
-
-                                    PrintWriter printWriter = new PrintWriter(outputStream);
-                                    printWriter.print("收到消息!!!");
-                                    outputStream.flush();
-                                    printWriter.close();
-                                }
-                            }
-                        } catch (IOException | InterruptedException e) {
-                        }
-                    });
+                    doReceive(socket);
                 } catch (IOException e) {
                 }
             }
         }).start();
+    }
+
+    private static void doReceive(Socket socket) {
+        threadPool.submit(() -> {
+            byte[] data = new byte[1024];
+            try {
+                InputStream inputStream = socket.getInputStream();
+                TimeUnit.SECONDS.sleep(1);
+                while (true) {
+                    int len;
+
+                    /**
+                     * inputStream.read() 方法
+                     * 1. 如果会阻塞知道等到获取到客户端发送的数据.
+                     * 2. 如果到了文件的尾部,返回 -1
+                     */
+                    while ((len = inputStream.read(data)) != -1) {
+                        System.out.println(new String(data, 0, len));
+
+                        OutputStream outputStream = socket.getOutputStream();
+
+                        System.out.println("remote port bind: "+socket.getPort());
+
+                        PrintWriter printWriter = new PrintWriter(outputStream);
+                        printWriter.print("收到消息!!!");
+                        outputStream.flush();
+                        printWriter.close();
+                    }
+                }
+            } catch (IOException | InterruptedException e) {
+            }
+        });
     }
 
 
