@@ -10,6 +10,28 @@ import java.net.URL;
 /**
  * 参考的地址
  * https://www.oschina.net/translate/serialization-in-java
+ * <p>总结:
+ * - 序列化是java对象的values/states转化为字节并在网络中传输或者保存它的过程。另外反序列化是把字节码翻译为对应的对象的过程。
+ * <p>
+ * - 序列化的好处是，JVM的独立性，也就是说，一个对象可以在一个平台中被序列化，然后在另外一个不同的平台反序列化。
+ * <p>
+ * - 如果你需要序列化任何对象，你必须实现标记接口Serializable。
+ * <p>
+ * - Java中的标记接口（Marker interface）就是没有字段或者方法的接口，或者更简单的说，空接口
+ * <p>
+ * - serialVersionUID 是用于保证同一个对象（在序列化中会被用到）可以在Deserialization过程中被载入。serialVersionUID 是用于对象的版本控制。
+ * <p>
+ * - 当你需要序列化任何包含引用对象的对象，那么Java会自动序列化该对象的整个对象图。
+ * <p>
+ * - 如果你不希望序列化某个字段，你可以标记它为 transient
+ * <p>
+ * - 如果父类为可序列化，那么它的继承类也将是可序列化的。
+ * <p>
+ * - 如果父类为非可序列化，那么在反序列化过程中，所有继承于父类的实例变量值将会通过调用非可序列化的构造器来初始化。
+ * <p>
+ * - 如果你需希望子类为不能序列化的，那么你需要实现writeObject() 和 readObject() 方法，并在这两个方法中抛出NotSerializableException异常
+ * <p>
+ * - 你不能序列化静态变量。
  */
 
 /**
