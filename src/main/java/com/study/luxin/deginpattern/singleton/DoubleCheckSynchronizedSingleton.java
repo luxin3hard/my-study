@@ -11,6 +11,8 @@ package com.study.luxin.deginpattern.singleton;
  * 字段的顺序是不确定的。在某个线程创建单例对象时，在构造方法被调用之前，就为该对象分配了内存 空间并将对象的字段设置为默认值。此时就可以将分配的内存地址赋值给instance字段了，然而该对象
  * 可能还没有初始化。若紧接着另外一个线程来调用getInstance，取到的就是状态不正确的对象，程序就会出错。 以上就是双重校验锁会失效的原因，不过还好在JDK1.5及之后版本增加了volatile关键字。volatile
  * 的一个语义是禁止指令重排序优化，也就保证了instance变量被赋值的时候对象已经是初始化过的，从而避免了上面说到的问题。
+ *
+ * @see io.netty.handler.timeout.ReadTimeoutException
  */
 public class DoubleCheckSynchronizedSingleton {
 

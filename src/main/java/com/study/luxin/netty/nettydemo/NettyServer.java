@@ -38,35 +38,49 @@ public class NettyServer {
 
         //中的负责读取数据的线程，主要用于读取数据以及业务逻辑处理--对应ClientSelector
         NioEventLoopGroup worker = new NioEventLoopGroup();
-        ChannelFuture channelFuture = serverBootstrap
-                .group(boss, worker)
-                //----(1)-----------end---------------
+        serverBootstrap.group(boss, worker);
+        serverBootstrap.channel(NioServerSocketChannel.class);
+        serverBootstrap.handler(new ChannelHandler() {
+            @Override
+            public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
 
-                //----(2)-----------start-------------
-                .channel(NioServerSocketChannel.class)
-                //----(2)-----------end---------------
+                System.out.println();
+            }
 
-                //----(3)-----------start-------------
-                .childHandler(
-                        // ChannelInitializer 主要用户处理每条连接的数据读写
-                        new ChannelInitializer<NioSocketChannel>() {
-                            protected void initChannel(NioSocketChannel ch) {
+            @Override
+            public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
 
-                                ch.pipeline().addLast(new StringDecoder());
-                                ch.pipeline().addLast(new SimpleChannelInboundHandler<String>() {
-                                    @Override
-                                    protected void channelRead0(ChannelHandlerContext ctx, String msg) {
+            }
 
-                                        System.out.println(ch.attr(AttributeKey.valueOf("clientKey")));
+            @Override
+            public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
 
-                                        System.out.println(msg);
-                                    }
-                                });
+            }
+        });
+        serverBootstrap.childHandler(
+                // ChannelInitializer 主要用户处理每条连接的数据读写
+                new ChannelInitializer<NioSocketChannel>() {
+                    protected void initChannel(NioSocketChannel ch) {
 
+                        ch.pipeline().addLast(new StringDecoder());
+                        ch.pipeline().addLast(new SimpleChannelInboundHandler<String>() {
+                            @Override
+                            protected void channelRead0(ChannelHandlerContext ctx, String msg) {
 
+                                System.out.println(ch.attr(AttributeKey.valueOf("clientKey")));
+
+                                System.out.println(msg);
                             }
-                        }
-                ).bind(8000);
+                        });
+
+
+                    }
+                }
+        );//----(1)-----------end---------------
+//----(2)-----------start-------------
+//----(2)-----------end---------------
+//----(3)-----------start-------------
+        ChannelFuture channelFuture = serverBootstrap.bind(8000);
         //----(3)-----------end---------------
 
 

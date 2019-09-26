@@ -14,4 +14,21 @@ public class FindFirst {
         list.add(null);
         list.stream().findFirst();
     }
+
+
+    @Test
+    public void forEach() {
+        List<String> list = Lists.newArrayList("1", "2");
+
+
+
+        list.forEach(o -> {
+            if (o == "1") {
+                return;
+            }
+            System.out.println(o);
+        });
+
+    }
+
 }

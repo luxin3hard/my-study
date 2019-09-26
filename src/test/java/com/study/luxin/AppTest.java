@@ -3,6 +3,8 @@ package com.study.luxin;
 
 import org.junit.Test;
 
+import java.util.Arrays;
+
 /**
  * Unit test for simple App.
  */
@@ -42,5 +44,32 @@ public class AppTest {
         }
         System.out.println(max);
     }
+
+
+    public static void main(String[] args) {
+        new Thread(() -> {
+
+            System.out.println("thread start time: " + System.currentTimeMillis());
+            int j = 0;
+            for (int i = 0; i < 100000; i++) {
+                j++;
+            }
+            System.out.println("thread start end: " + System.currentTimeMillis());
+            System.out.println(j);
+        }).start();
+
+        System.out.println("main  time: " + System.currentTimeMillis());
+    }
+
+
+    @Test
+    public void test01() {
+        String str = "1212";
+
+        String[] s = str.split(";");
+
+        System.out.println(Arrays.toString(s));
+    }
+
 
 }

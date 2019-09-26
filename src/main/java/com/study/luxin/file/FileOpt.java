@@ -50,7 +50,7 @@ public class FileOpt {
     @Test
     public void parseRoleJson() throws IOException {
         String roleJsonStr = readFile("role_json");
-        List<String> supportBiFuncCode = Lists.newArrayList("20001","20002","20003","20004","20005","20006","20007","20008","20009","20010","20011","20012","20014","20017","20018","20019","20020","100601","100602","100603","100604","100605","100606","100607","100608","20013","20015","20016","20021","20022");
+        List<String> supportBiFuncCode = Lists.newArrayList("20001", "20002", "20003", "20004", "20005", "20006", "20007", "20008", "20009", "20010", "20011", "20012", "20014", "20017", "20018", "20019", "20020", "100601", "100602", "100603", "100604", "100605", "100606", "100607", "100608", "20013", "20015", "20016", "20021", "20022");
 
         List<Object> result = Lists.newArrayList();
         for (Object funcInfo : JSON.parseArray(roleJsonStr)) {
@@ -63,6 +63,26 @@ public class FileOpt {
 
 
         System.out.println(result);
+    }
+
+    @Test
+    public void test1() throws IOException {
+        String roleJsonStr = readFile("product_service_code");
+        List<String> list = Lists.newArrayList();
+        String str = "update mt_data d set value3 = '%s' from biz_product p where p.tenant_id = d.tenant_id and d.tenant_id = '598335' and p.extend_obj_data_id = d.id and p.name='%s';\n";
+
+
+        String[] lines = roleJsonStr.split("\\n");
+
+        for (String line : lines) {
+
+            String[] s = line.split("#");
+
+            list.add(String.format(str, s[1], s[0])+"\n");
+
+        }
+
+        System.out.println(list);
     }
 
 
