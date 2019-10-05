@@ -6,6 +6,7 @@ import org.junit.Test;
 import java.io.*;
 import java.net.URISyntaxException;
 import java.net.URL;
+import java.util.Objects;
 
 /**
  * 参考的地址
@@ -46,8 +47,6 @@ public class SerializeMain {
             fileOut = new FileOutputStream(file);
             outStream = new ObjectOutputStream(fileOut);
             outStream.writeObject(object);
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
@@ -73,33 +72,10 @@ public class SerializeMain {
 
 
     public static <T> T decode(File file) {
-
-        FileInputStream fileIn = null;
-        ObjectInputStream in = null;
-        try {
-            fileIn = new FileInputStream(file);
-            in = new ObjectInputStream(fileIn);
+        try (FileInputStream fileIn = new FileInputStream(file); ObjectInputStream in = new ObjectInputStream(fileIn)) {
             return (T) in.readObject();
-        } catch (IOException e) {
+        } catch (ClassNotFoundException | IOException e) {
             e.printStackTrace();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } finally {
-            if (fileIn != null) {
-                try {
-                    fileIn.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-
-            if (in != null) {
-                try {
-                    in.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
         }
         return null;
     }
@@ -108,7 +84,7 @@ public class SerializeMain {
     public <T> T encodeAndDecode(T object) throws URISyntaxException, IOException {
         URL serializeTest = this.getClass().getClassLoader().getResource("serializeTest");
 
-        File file = new File(serializeTest.toURI());
+        File file = new File(Objects.requireNonNull(serializeTest).toURI());
 
         if (file.exists()) {
             if (file.delete()) {
@@ -117,8 +93,7 @@ public class SerializeMain {
         }
 
         encode(object, file);
-        T decode = decode(file);
-        return decode;
+        return decode(file);
     }
 
 
@@ -193,7 +168,7 @@ public class SerializeMain {
         // w为static,不会序列化,反序列化的值,还是 static的值,不会改变
         Son son = new Son(1, 2, 3, 4, 20);
 
-        System.out.println(son.f);
+        System.out.println(Son.f);
 
         Son userWithTransient = encodeAndDecode(son);
         // 父类的值都是 初始化的值,不是付值之后的值
@@ -213,7 +188,7 @@ public class SerializeMain {
     public void test05() throws URISyntaxException {
         URL serializeTest = this.getClass().getClassLoader().getResource("serializeTest");
 
-        File file = new File(serializeTest.toURI());
+        File file = new File(Objects.requireNonNull(serializeTest).toURI());
         Son son = decode(file);
 
         // 如果从另个jvm取static,返回的值是是老的值 10,不是改变后的值
