@@ -5,37 +5,27 @@ import org.junit.Test;
 //https://leetcode-cn.com/problems/merge-two-sorted-lists/
 public class Code21 {
     public ListNode mergeTwoLists(ListNode p, ListNode q) {
-        if (p == null) {
-            return q;
-        }
-        if (q == null) {
-            return p;
-        }
-        ListNode head = p.val <= q.val ? p : q;
-        ListNode last;
-        ListNode t;
-        while (true) {
+        ListNode t = new ListNode(-1);
+        ListNode head = t;
+
+        while (p != null && q != null) {
             if (p.val <= q.val) {
-                last = p;
+                t.next = p;
+                t = t.next;
                 p = p.next;
             } else {
-                t= p.next;
-                p.next = q;
-                last = q;
+                t.next = q;
+                t = t.next;
                 q = q.next;
-                p.next=t;
-            }
-
-            if (p == null) {
-                last.next = q;
-                return head;
-            }
-
-            if (q == null) {
-                last.next = p;
-                return head;
             }
         }
+        if (p != null) {
+            t.next = p;
+        }
+        if (q != null) {
+            t.next = q;
+        }
+        return head.next;
     }
 
 

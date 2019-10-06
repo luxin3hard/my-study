@@ -8,3 +8,42 @@
 String.matches() 这个方法会创建一个pattern对象,每次都会新建,造成浪费.
 
 只有创建代价非常高的对象,才应该换成到对象池中,比如数据库的连接池
+
+### o21 为后代设计接口
+设计接口要尝试多种实现,以使接口满足要求,减少改动. 可以在接口添加default方法,但是这种做饭是有风险的,任何实现该接口的类都需要经过测试.
+
+### o22 接口仅用来定义类型
+1. 如果使用接口来定义常量,那么接口能被实现,不推荐这样做. 坏处:
+    1.1 类实现了**常量接口**,污染明明空间.
+    1.2 实现了接口的类,即使不需要这些常量后,还是需要继续实现该接口.
+2. 推荐使用不能实例化的类(private 构造方法的类) 来实现常量类.(私有构造方法,保证不能被继承)
+3. 接口应该仅用于定义方法,不应该用于常量类.
+
+
+### o24 有限考虑静态成员类
+
+### o25 一个class 文件,不要有多大类
+下面的同一个文件里面有多个类,不要出现这种. 如果同一个文件需要有多个类,可以用静态内部类.
+```java
+class Main{
+}
+
+class B{
+}
+```
+
+### o26 避免使用原始类型
+List<String> 是List的子类,不是 List<Object>的子类. List<String> 不能转换成List<Object>.
+即使是任意类型也要用List<Object>表明已经是泛型化
+```java
+// 这个可以乱插
+private static void unsafeAdd(List list, Object o) {
+    list.add(o);
+}
+
+// 这个可以插入任意类型,但是限制了 list的类型为 List<Object>, List<String> 并不是List<Object>的子类型,如果使用List<String>作为list参数传入,会报错.
+private static void unsafeAdd(List<Object> list, Object o) {
+    list.add(o);
+}
+
+```
