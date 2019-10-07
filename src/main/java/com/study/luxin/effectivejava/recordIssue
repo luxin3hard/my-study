@@ -35,6 +35,7 @@ class B{
 ### o26 避免使用原始类型
 List<String> 是List的子类,不是 List<Object>的子类. List<String> 不能转换成List<Object>.
 即使是任意类型也要用List<Object>表明已经是泛型化
+
 ```java
 // 这个可以乱插
 private static void unsafeAdd(List list, Object o) {
@@ -45,5 +46,34 @@ private static void unsafeAdd(List list, Object o) {
 private static void unsafeAdd(List<Object> list, Object o) {
     list.add(o);
 }
+```
 
+### o28 列表优于数组
+1. 数组存在协变
+Sub是Super的子类型，则数组类型Sub []是数组类型Super []的子类型
+```java
+Object[] objectArray = new Long[1]; // 这句话能通过编译,不会报错,只有在下面使用的时候才会报错
+objectArray[0] = "I don't fit in"; // Throws ArrayStoreException
+```
+2. 数组和泛型不能很好的结合,数组会具体化,如 String[] 编译时候,不会类型擦除,但是列表会类型擦除.
+以下的标识会出现编译报错.
+```java
+new List <E> []，new List <String> []，new E []
+```
+
+### o29 优先使用泛型
+
+起到限制E的范围的作用,DelayQueue<Delayed> 是被允许的
+```java
+class DelayQueue<E extends Delayed> implements BlockingQueue<E>
+```
+
+### o30
+```java
+// 表示能和自己比较的类型
+public static <E extends Comparable<E>> E max(Collection<E> c);
+
+class A implements Comparable{
+    
+}
 ```
