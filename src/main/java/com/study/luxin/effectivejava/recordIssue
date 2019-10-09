@@ -77,3 +77,36 @@ class A implements Comparable{
     
 }
 ```
+### o31 使用通配符增加灵活性
+** 为了获得最大的灵活性，对代表生产者或消费者的输入参数使用通配符类型。** 如果一个输入参数既是一个生产者又是一个消费者，那么通配符类型对你没有好处：你需要一个精确的类型匹配，这就是没有任何通配符的情况。
+
+这里有一个助记符来帮助你记住使用哪种通配符类型：
+** PECS代表： producer-extends，consumer-super **
+```
+public static <T extends Comparable<? super T>> T max(List<? extends T> list)
+```
+Comparable是消费者, list是生产者
+
+### o34 使用枚举代替常量
+```java
+// Enum type with constant-specific method implementations
+public enum Operation {
+  PLUS  {public double apply(double x, double y){return x + y;}},
+  MINUS {public double apply(double x, double y){return x - y;}},
+  TIMES {public double apply(double x, double y){return x * y;}},
+  DIVIDE{public double apply(double x, double y){return x / y;}};
+
+  public abstract double apply(double x, double y);
+}
+```
+
+### o37
+```java
+// Using a stream and an EnumMap to associate data with an enum
+
+System.out.println(Arrays.stream(garden)
+
+        .collect(groupingBy(p -> p.lifeCycle,
+
+() -> new EnumMap<>(LifeCycle.class), toSet())));
+```
