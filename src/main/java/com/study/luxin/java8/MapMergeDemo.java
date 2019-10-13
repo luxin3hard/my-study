@@ -20,6 +20,7 @@ public class MapMergeDemo {
         map.merge("123", "--1", (x, y) -> x + y);
         System.out.println(map.values());
 
+        map.computeIfAbsent("lx", x -> x+" love hxz");
+        System.out.println(map.values());
     }
-
 }
