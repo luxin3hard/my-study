@@ -9,8 +9,14 @@ import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.List;
 import java.util.Map;
+import java.util.stream.Stream;
 
 public class FileOpt {
 
@@ -78,11 +84,22 @@ public class FileOpt {
 
             String[] s = line.split("#");
 
-            list.add(String.format(str, s[1], s[0])+"\n");
+            list.add(String.format(str, s[1], s[0]) + "\n");
 
         }
 
         System.out.println(list);
+    }
+
+
+    @Test
+    public void fileLinesStreamTest() throws URISyntaxException, IOException {
+        URL resource = getClass().getClassLoader().getResource("index.html");
+
+
+        Path path = Paths.get(resource.toURI());
+        Stream<String> lines = Files.lines(path);
+        lines.forEach(x -> System.out.println("0--" + x));
     }
 
 

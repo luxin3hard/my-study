@@ -110,3 +110,21 @@ System.out.println(Arrays.stream(garden)
 
 () -> new EnumMap<>(LifeCycle.class), toSet())));
 ```
+
+### o49 检查参数的有效性
+> 大多数方法和构造方法对可以将哪些值传递到其对应参数中有一些限制。 例如，索引值必须是非负数，对象引用必须为非null。 你应该清楚地在文档中记载所有这些限制，并在方法主体的开头用检查来强制执行。
+```java
+/**
+ * Returns a BigInteger whose value is (this mod m). This method
+ * differs from the remainder method in that it always returns a
+ * non-negative BigInteger.
+ *
+ * @param m the modulus, which must be positive
+ * @return this mod m
+ * @throws ArithmeticException if m is less than or equal to 0
+ */
+public BigInteger mod(BigInteger m) {
+    if (m.signum() <= 0)
+        throw new ArithmeticException("Modulus <= 0: " + m);
+}
+```
