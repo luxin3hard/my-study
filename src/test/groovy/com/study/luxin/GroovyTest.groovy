@@ -8,6 +8,11 @@ import spock.lang.Specification
 //@ContextConfiguration(value = "classpath:applicationContext.xml")
 class GroovyTest extends Specification {
 
+    static {
+        // 设置系统变量
+        System.setProperty("spring.profiles.active", "fstest")
+    }
+
     def "my_test"() {
         given:
         String a = ""
