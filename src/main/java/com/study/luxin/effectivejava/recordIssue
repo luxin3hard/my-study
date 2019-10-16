@@ -131,3 +131,19 @@ public BigInteger mod(BigInteger m) {
 
 
 (文档注释标签)[https://blog.csdn.net/huangsiqian/article/details/82818211]
+
+----
+
+> 需要掌握的类库
+1. java.util.concurrent
+2. java.lang
+3. java.util
+4. java.io
+5. Collection框架和流Stream类库
+
+### o60 精确计算的时候,避免是 double和float,请使用 BigDecimal
+> 如果性能是最重要的，那么不介意自己控制十进制小数点，而且数量不是太大，可以使用int或long。如果数量不超过9位小数，可以使用int;如果不超过18位，可以使用long。如果数量可能超过18位，则使用BigDecimal。
+
+### o61 基本类型装箱类型
+
+Comparator.naturalOrder() 是基本类型的比较器
