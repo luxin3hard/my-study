@@ -119,6 +119,7 @@ public class SerializeMain {
 
         // 如果为空,不会导致报错. 如果不为空,会发生序列化,对象没有 Serializable会报错
         user1HaveNotSerializableField.setNotSerializableField(new Object());
+        //user1HaveNotSerializableField.setNotSerializableField(null);
         try {
             User1HaveNotSerializableField serializableField = encodeAndDecode(user1HaveNotSerializableField);
         } catch (Throwable e) {

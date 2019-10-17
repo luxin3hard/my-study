@@ -25,6 +25,7 @@ public class UserWithTransientNeedSerialize implements Serializable {
 
             objectOutputStream.writeObject("lu");
             objectOutputStream.writeInt(5);
+            objectOutputStream.writeObject("XXXXXX");
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -39,6 +40,9 @@ public class UserWithTransientNeedSerialize implements Serializable {
             transientField = new NotSerializeName();
             transientField.setLastName(lastName);
             transientField.setNameLength(nameLength);
+
+            String xxx = (String) is.readObject();
+            assert xxx.equals("XXXXXX");
         } catch (Exception e) {
             e.printStackTrace();
         }
