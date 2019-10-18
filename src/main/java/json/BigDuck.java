@@ -36,5 +36,4 @@ public class BigDuck implements Duck {
         return wight;
     }
 
-
 }
