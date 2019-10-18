@@ -16,7 +16,5 @@ public class JsonParse {
         Gson gson = new GsonBuilder().create();
 
         List<JsonParse> ps = gson.fromJson("", new TypeToken<List<JsonParse>>(){}.getType());
-
-
     }
 }
