@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 public class ThreadPoolTest {
 
     ThreadPoolExecutor executor = new ThreadPoolExecutor(
-            1, 1, 100L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(1), new ThreadPoolExecutor.CallerRunsPolicy());
+            4, 20, 100L, TimeUnit.SECONDS, new ArrayBlockingQueue<>(10), new ThreadPoolExecutor.CallerRunsPolicy());
 
 
     @Test
@@ -15,18 +15,18 @@ public class ThreadPoolTest {
      * execute 会在执行线程抛出异常,从外部线程不能捕获到异常,会导致线程池里面的线程死亡.   即不会影响外部线程.
      */
     public void executeTest() throws InterruptedException {
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10; i++) {
             executor.execute(() -> {
                 System.out.println("--------1");
                 throw new RuntimeException();
-
             });
         }
 
-        TimeUnit.SECONDS.sleep(2);
-        System.out.println("11");
-
-
+        // 异常不会影响 外部的线程
+        TimeUnit.SECONDS.sleep(1);
+        System.out.println("\n\n\n\n");
+        System.out.println("现在的线程数: " + executor.getPoolSize());
+        System.out.println("外部线程正常--------------------------");
     }
 
 
