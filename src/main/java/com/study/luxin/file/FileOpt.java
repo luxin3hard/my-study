@@ -28,7 +28,6 @@ public class FileOpt {
     @Test
     public void test() throws IOException {
         String fileStr = readFile("hetong");
-
         JSONObject ob = JSON.parseObject(fileStr);
         JSONArray array = (JSONArray) ob.get("Value");
 
