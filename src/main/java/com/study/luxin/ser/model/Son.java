@@ -7,7 +7,7 @@ import java.io.Serializable;
 @Data
 public class Son extends Father implements Serializable {
 
-    int c;
+    private int c;
     int d;
 
     public static int f = 10;
