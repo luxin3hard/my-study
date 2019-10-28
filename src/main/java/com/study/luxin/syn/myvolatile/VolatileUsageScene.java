@@ -22,8 +22,8 @@ public class VolatileUsageScene {
 
 
     //--------------单例模式--------------------
-    // 这个例子不是很恰当,实际还是使用了锁保证了线程安全,volatile可以保证顺序性,如果没有 //--3,在没有完成构造的时候,其他对象就能获得这个引用
-    // 加入volatile保证了代码的顺序性,获得的instance都是可以的对象
+    // 这个例子不是很恰当,实际还是使用了锁保证了线程安全,volatile可以保证顺序性,如果没有 //--3,在没有完成构造的时候,其他对象就能获得这个引用,导致不安全发布了
+    // 加入volatile保证了代码的顺序性,获得的instance都是构造好的对象
     private static volatile VolatileInvariants instance;
 
     public static VolatileInvariants getInstance() {
