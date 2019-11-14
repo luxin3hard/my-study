@@ -1,7 +1,10 @@
+import com.google.common.collect.Lists;
 import com.google.common.collect.Sets;
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Set;
 
 public class MyTest {
@@ -27,9 +30,21 @@ public class MyTest {
 
         spus.addAll(skus);
         System.out.println("全部企业,共:" + spus.size() + "\n" + spus);
-
-
-
-
     }
+
+    @Test
+    public void test01() {
+        String corpId = "449094";
+        int i = Math.abs(corpId.hashCode() % 100);
+        System.out.println(i);
+    }
+
+    @Test
+    public void test001() {
+        List<String> list = Lists.newArrayListWithCapacity(10);
+
+        System.out.println(list);
+    }
+
+
 }

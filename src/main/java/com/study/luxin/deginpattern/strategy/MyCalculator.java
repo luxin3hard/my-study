@@ -6,7 +6,10 @@ package com.study.luxin.deginpattern.strategy;
 public class MyCalculator {
 
     public static void main(String[] args) {
+
+
         CalculateStrategy calculateStrategy = CalculateFactory.createCalculateOpt("+");
-        assert calculateStrategy.calculate(11, 3) == 14;
+        Context context = new Context(calculateStrategy);
+        assert context.calculate(11, 3) == 14;
     }
 }

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!--这个是支持自动扫描配置变更,且reload配置-->
+    <!--  <configuration scan="true">
+            ...
+    </configuration>-->
+
+    <!--打印日志的时候,是否包含包信息-->
+   <!-- <configuration packagingData="true">
+    //at ch.qos.logback.demo.prime.PrimeAction.execute(PrimeAction.java:28) [classes/:na]
+  at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:431) [struts-1.2.9.jar:1.2.9]
+    </configuration>-->
+
+    <!-- 日志中默认打印traceId和userId，方便定位问题,异常栈中去掉包含如下字符的行避免打印很多无用的信息 -->
+    <property name="defaultPattern" value="%d{HH:mm:ss.SSS} [%thread] %-5level %logger{12} %X{traceId} %X{userId} %msg%rEx{full,
+                java.lang.Thread,
+                javassist,
+                sun.reflect,
+                org.springframework,
+                org.apache,
+                org.eclipse.jetty,
+                $Proxy,
+                java.net,
+                java.io,
+                javax.servlet,
+                org.junit,
+                com.mysql,
+                com.sun,
+                org.mybatis.spring,
+                cglib,
+                CGLIB,
+                java.util.concurrent,
+                okhttp,
+                org.jboss,
+                }%n"/>
+
+    <!-- ch.qos.logback.core.ConsoleAppender 控制台输出 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{12} %X{traceId} %X{userId} %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="my-web-t" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${catalina.home}/logs/myWeb.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${catalina.home}/logs/crm.%d{yyyy-MM-dd}.log.zip</fileNamePattern>
+            <maxHistory>7</maxHistory>
+            <maxFileSize>1GB</maxFileSize>
+            <totalSizeCap>10GB</totalSizeCap>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${defaultPattern}</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger level="WARN" additivity="false">
+        <appender-ref ref="console"/>
+        <appender-ref ref="my-web"/>
+    </logger>
+
+
+    <root level="INFO">
+        <appender-ref ref="console"/>
+    </root>
+</configuration>

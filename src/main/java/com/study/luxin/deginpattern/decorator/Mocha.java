@@ -5,8 +5,6 @@ package com.study.luxin.deginpattern.decorator;
  */
 public class Mocha extends AbstractCondimentDecorator {
 
-    private Beverage material;
-
     public Mocha(Beverage material) {
         this.material = material;
     }

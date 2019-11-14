@@ -10,8 +10,6 @@ public class Whip extends AbstractCondimentDecorator {
         this.material = material;
     }
 
-    private Beverage material;
-
 
     @Override
     public double cost() {
