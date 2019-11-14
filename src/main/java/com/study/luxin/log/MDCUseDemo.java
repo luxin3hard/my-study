@@ -17,5 +17,4 @@ public class MDCUseDemo {
         MDC.put("traceId", "-----luxin----trace----");
         log.error("test log");
     }
-
 }
