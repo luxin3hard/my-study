@@ -21,11 +21,11 @@ public class LinkedNodeUtils {
     }
 
 
-    public static ListNode ofList(List<Integer> nums) {
+    public static<T> ListNode ofList(List<T> nums) {
         ListNode t = null;
 
         ListNode head = null;
-        for (int num : nums) {
+        for (T num : nums) {
             if (t == null) {
                 t = new ListNode(num);
                 head = t;

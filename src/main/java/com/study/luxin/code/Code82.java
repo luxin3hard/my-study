@@ -21,8 +21,8 @@ public class Code82 {
                 f = w;
             } else {
                 ListNode h = w.next.next;
-                int value = w.next.val;
-                while (h != null && value == h.val) {
+                int value = (int) w.next.val;
+                while (h != null && value == (int) h.val) {
                     h = h.next;
                 }
                 f.next = h;

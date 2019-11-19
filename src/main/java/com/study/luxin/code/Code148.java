@@ -17,13 +17,13 @@ public class Code148 {
     }
 
 
-    ListNode sortList(ListNode k, ListNode h, ListNode e) {
+    ListNode sortList(ListNode<Integer> k, ListNode<Integer> h, ListNode<Integer> e) {
         if (h == null) return null;
         if (h == e || h.next == null || h.next == e) return h;
         ListNode w = h;
         ListNode t, k1 = k;
         while (w.next != null && w.next != e) {
-            if (w.next.val >= h.val) {
+            if (((int) w.next.val) >= h.val) {
                 w = w.next;
             } else {
                 t = w.next;
@@ -41,7 +41,7 @@ public class Code148 {
 
     @Test
     public void test() {
-        ListNode head = LinkedNodeUtils.of(1,2,33);
+        ListNode head = LinkedNodeUtils.of(1, 2, 33);
         LinkedNodeUtils.listNodeIterator(head);
         ListNode listNode = sortList(head);
         LinkedNodeUtils.listNodeIterator(listNode);

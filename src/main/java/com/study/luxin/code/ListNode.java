@@ -1,10 +1,10 @@
 package com.study.luxin.code;
 
-public class ListNode {
-    int val;
-    ListNode next;
+public class ListNode<T> {
+    public T val;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(T x) {
         val = x;
     }
 }
