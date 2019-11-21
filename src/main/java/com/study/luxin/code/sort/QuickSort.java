@@ -13,7 +13,7 @@ public class QuickSort {
 
     private void quickSort(int[] array, int s, int e) {
         if (s < e) {
-            int p = partition02(array, s, e);
+            int p = partition(array, s, e);
             quickSort(array, s, p - 1);
             quickSort(array, p + 1, e);
         }
@@ -47,13 +47,13 @@ public class QuickSort {
         int i = s - 1, j = e + 1;
 
         while (true) {
-            do{
+            do {
                 j--;
-            } while (array[j] >=v);
+            } while (array[j] >= v);
 
             do {
                 i++;
-            } while (array[i] <=v);
+            } while (array[i] <= v);
 
 
             if (i < j) {
