@@ -143,4 +143,11 @@ public class SortDemo {
         System.out.println(Arrays.toString(nums));
     }
 
+    /**
+     * 桶排序,一般用作外部排序. 数据量大,但是内存小.
+     * 先扫描出数据范围,然后根据数据范围m,将m分成n个桶.
+     * 然后扫描数据,将数据加入到对应的桶内.
+     * 分别加载桶做快速排序
+     */
+
 }
