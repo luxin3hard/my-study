@@ -38,26 +38,34 @@ public class BinarySearchDemo {
 
 
     public double sqrt(double a, int x) {
-
         double i = Math.pow(0.1D, x);
-
 
         double h = a;
         double l = 0D;
 
         double mid;
         while (true) {
-
             mid = (l + h) / 2;
-
-        /*    if (mid * mid == a||((mid-i)) {
+            double v = mid * mid;
+            if (v == a || (((mid - i) * (mid - i) < a) && ((mid + i) * (mid + i) > a))) {
                 return mid;
+            } else {
+
+                if (v > a) {
+                    h = mid;
+                } else {
+                    l = mid;
+                }
             }
-*/
-
-
-
         }
+    }
+
+    @Test
+    public void sqrtTest() {
+        double sqrt = sqrt(3, 10);
+
+        System.out.println(sqrt);
+        System.out.println(sqrt * sqrt);
 
 
     }
