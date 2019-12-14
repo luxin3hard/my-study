@@ -17,10 +17,25 @@ public class MapMergeDemo {
         System.out.println(map.values());
 
         // 如果不为空,就将老的value和下面给的value做函数处理
-        map.merge("123", "--1", (x, y) -> x + y);
+        map.merge("123", "--1", (old, newV) -> old + newV);
         System.out.println(map.values());
 
         map.computeIfAbsent("lx", x -> x+" love hxz");
         System.out.println(map.values());
     }
+
+
+    @Test
+    public void test1(){
+
+        Map<String, String> map = Maps.newHashMap();
+        map.put("a","b");
+        map.forEach((k,v)->v="100");
+
+        System.out.println(map);
+
+    }
+
+
+
 }
