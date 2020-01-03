@@ -17,4 +17,13 @@ public class Graph {
     public void addEdge(int s, int t) {
         tm[s].add(t);
     }
+
+    public int getV() {
+        return v;
+    }
+
+    public LinkedList[] getTm(){
+        return tm;
+    }
+
 }
