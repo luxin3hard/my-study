@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.concurrent.TimeUnit;
 
 /**
+ * syn中有多个同步方法
  * 同一个类里面的方法加上synchronized,相当于 synchronized(this). 所以同一时间,只能访问一个synchronized的方法
  */
 public class SynchronizedGetAndSet {
