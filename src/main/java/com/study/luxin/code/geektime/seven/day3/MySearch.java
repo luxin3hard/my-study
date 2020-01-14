@@ -71,4 +71,36 @@ public class MySearch {
     }
 
 
+    public int mySqrt(int x) {
+        int l = 0, h = x;
+        int mid = 0;
+
+        if (x == 0 || x == 1) {
+            return x;
+        }
+
+        int k;
+        while (l <= h) {
+            mid = (l + h + 1) / 2;
+            k = x / mid;
+
+            if (mid <= k && (mid + 1) > x / (mid + 1)) {
+                return mid;
+            }
+
+            if (mid < k) {
+                l = mid + 1;
+            } else {
+                h = mid - 1;
+            }
+        }
+
+        return mid;
+    }
+
+    @Test
+    public void mySqrtTest() {
+        System.out.println(mySqrt(2147395599));
+    }
+
 }
