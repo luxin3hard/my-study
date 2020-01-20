@@ -42,4 +42,23 @@ public class ThreadPoolTest {
         submit.get();
         TimeUnit.SECONDS.sleep(1);
     }
+
+
+    @Test
+    /**
+     * 线程不能start两次, 第一次调用start方法会抛出异常
+     */
+    public void test001() throws InterruptedException {
+        Thread thread = new Thread(() -> {
+            System.out.println(Thread.currentThread());
+
+        });
+
+        thread.start();
+        TimeUnit.SECONDS.sleep(1);
+        thread.start();
+        TimeUnit.SECONDS.sleep(2);
+    }
+
+
 }

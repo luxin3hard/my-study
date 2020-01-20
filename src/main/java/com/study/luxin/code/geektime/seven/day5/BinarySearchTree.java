@@ -126,9 +126,17 @@ public class BinarySearchTree {
         tree.insert(5);
 
         tree.remove(4);
-        System.out.println(tree);
+        //System.out.println(tree);
 
+        preOrder(tree.root);
+    }
 
+    public void preOrder(Node n) {
+        if (n != null) {
+            preOrder(n.left);
+            System.out.println(n.data);
+            preOrder(n.right);
+        }
     }
 
     private static class Node {

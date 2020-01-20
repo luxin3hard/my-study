@@ -8,17 +8,17 @@ public enum EnumSingleton {
     private Singleton singleton;
 
 
-    public void EnumSingleton(){
+    public void EnumSingleton() {
         singleton = new Singleton();
-    };
+    }
+
 
     public Singleton getSingleton() {
         return INSTANCE.singleton;
     }
 
-    public class Singleton{
-
-
+    public class Singleton {
     }
 
 }
+
