@@ -1,9 +1,12 @@
 package com.study.luxin.java8;
 
+import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import org.junit.Test;
 
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class MapMergeDemo {
 
@@ -20,22 +23,33 @@ public class MapMergeDemo {
         map.merge("123", "--1", (old, newV) -> old + newV);
         System.out.println(map.values());
 
-        map.computeIfAbsent("lx", x -> x+" love hxz");
+        map.computeIfAbsent("lx", x -> x + " love hxz");
         System.out.println(map.values());
     }
 
 
     @Test
-    public void test1(){
+    public void test1() {
 
         Map<String, String> map = Maps.newHashMap();
-        map.put("a","b");
-        map.forEach((k,v)->v="100");
+        map.put("a", "b");
+        map.forEach((k, v) -> v = "100");
 
         System.out.println(map);
 
     }
 
+
+    //--------------------------------------------------------------------------------
+    @Test
+    public void toMapTest() {
+        List<String> list = Lists.newArrayListWithCapacity(5);
+
+        list.add(null);
+        list.add("luxin");
+
+        list.stream().collect(Collectors.toMap(k -> k, k -> k.length()));
+    }
 
 
 }
